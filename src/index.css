@@ -1,13 +1,19 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: white;
+  text-align: center;
+  min-width: 300px;
+  padding: 180px 15px;
+  line-height: 1.6;
+  background-image: url("https://github.com/RobFyd/BMI-Calculator/blob/a45a8606eb5e21a1bcb2cec835b79899dca1d2de/fotos/DSC_0097.JPG?raw=true");
+  background-size: auto 1490px;
+  background-position: 38% 12%;
 }
