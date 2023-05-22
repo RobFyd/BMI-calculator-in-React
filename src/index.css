@@ -17,3 +17,61 @@ body {
   background-size: auto 1490px;
   background-position: 38% 12%;
 }
+
+.container {
+  max-width: 300px;
+  margin: auto;
+  padding: 20px;
+  background: rgba(252, 252, 252, 0.7);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(7.3px);
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.element {
+  font-weight: bold;
+}
+
+.element__header {
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.form__field {
+  border: 2px solid black;
+  padding: 5px;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 5px;
+}
+
+.result__container {
+  max-width: 260px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.form__result {
+  font-size: large;
+}
+
+.underweight {
+  color: #d67212;
+}
+
+.normal {
+  color: #718019 ;
+}
+
+.overweight {
+  color: #d67212;
+}
+
+.obesity {
+  color: #ca0108;
+}
